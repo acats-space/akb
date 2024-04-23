@@ -9,7 +9,11 @@
   },
   "withKernelSU": false,
   "toolchains": [
-  {
+    {
+        "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
+        "branch": "master",
+        "name": "gas"
+    },{
     "repo": "https://github.com/kdrag0n/proton-clang",
     "branch": "master",
     "name": "proton-clang",
